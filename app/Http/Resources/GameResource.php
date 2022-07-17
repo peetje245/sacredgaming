@@ -49,7 +49,7 @@ class GameResource extends JsonResource
             'genres' => GenreResource::collection($this->genres),
             'platform' => PlatformResource::collection($this->platforms),
 
-            // 'images' => ImageResource::collection($this->images),
+            'images' => ImageResource::collection($this->images),
             'videos' => VideoResource::collection($this->videos),
         ];
     }
